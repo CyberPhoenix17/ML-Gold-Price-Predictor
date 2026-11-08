@@ -6,6 +6,7 @@ A machine learning pipeline that ingests historical gold prices (gold_prices.csv
 📋 Overview
 
 • Algorithm: RandomForestRegressor (100 trees, parallelized with n_jobs=-1)
+
 • Features: 1-day lagged price return (Prev_Return)
 • Target: Daily price return (Target_Return)
 • Train/Test Split: 90% chronological train, 10% test (no shuffling to prevent data leakage)
