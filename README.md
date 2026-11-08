@@ -15,6 +15,7 @@ A machine learning pipeline that ingests historical gold prices (gold_prices.csv
 
 • Forecast Horizon: 2,192 days (2026–2032)
 
+
 🛠️ Prerequisites & Dependencies
 
 Make sure you have the required Python libraries installed in your environment:
